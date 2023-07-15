@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.CardBackground{
+  background-color: yellow;
+  margin-bottom: 20px;
+   border-radius: 0 0 10px 10px;
+}
+.Intro {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  vertical-align: auto;
+}
+
+.Info {
+  margin-top: 150px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.HeaderFont {
+  color: yellow;
+  size: 4vh;
+  text-align: center;
+  letter-spacing: 5px;
+
+}
+
+.HeaderBack {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  /* text-align: center; */
+
+}
+
+.SearchButton {
+  background-color: #685F4D;
+  color: #111111;
+  border: 2px solid #111111;
+  margin: 10px;
+
+}
+
+.hoverEff:hover {
+  opacity: 80%;
+  background-color: #685F4D;
+  color: #555555;
+
+}
+
+.Background {
+  height: 100%;
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background: url('../images/homeBack.jpg'); 
+}
+
+.Background2 {
+  height: 100%;
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.merchBackground{
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.albumStyle {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.oldAlbumStyle {
+  width: 30%;
+  margin: 20px;
+}
+
+.Header {
+  text-align: center;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; // not neccesary */
+}
