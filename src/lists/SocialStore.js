@@ -14,9 +14,9 @@ export const SOCIALS = [
         price: '$12',
         image: disposed,
         image2: disposed2,
-        website: <a className='unstyleLink' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
-            Visit Website</a>
-
+        website: <a className='noDecoration' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
+            </a>,
+        icon: <i className='fa fa-instagram' />
     },
     {
         id: 1,
@@ -25,8 +25,34 @@ export const SOCIALS = [
         price: '$20',
         image: disposed,
         image2: disposed2,
-        website: <a className='unstyleLink' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
-            Visit Website</a>
+        website: <a className='noDecoration' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
+            </a>,
+        icon: <i className='fa fa-facebook' />
+
+
+    },
+    {
+        id: 2,
+        name: 'youtube',
+        disc: 'the gram',
+        price: '$12',
+        image: disposed,
+        image2: disposed2,
+        website: <a className='noDecoration' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
+            </a>,
+        icon: <i className='fa fa-youtube' />
+    },
+    {
+        id: 3,
+        name: 'spotify',
+        disc: 'september',
+        price: '$20',
+        image: disposed,
+        image2: disposed2,
+        website: <a className='noDecoration' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
+            </a>,
+        icon: <i className='fa fa-spotify' />
+
 
     }
 

@@ -16,7 +16,7 @@ const Socials = () => {
                     <>
                         
                             {/* <Col xs='12'> */}
-                        <Col className='' xs='3' key={social.id}>
+                        <Col className='' xs='6' key={social.id}>
                             <SocialCard social={social} />
                         {/* </Col> */}
                         </Col>

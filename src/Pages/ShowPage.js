@@ -5,15 +5,19 @@ import Display from './Display.js';
 import Header from '../component/Header';
 import Show from '../Shows';
 import { Container, Col, Row, Button } from "reactstrap";
+import Footer from '../component/Footer'
+import ShowPoster from '../ShowPosters.js'
 
 const ShowPage = () => {
 
   return (
 
-    <Container fluid className='Background2'>
+    <Container fluid className='BackgroundShow'>
         <Header />
         <h1>Show page loser</h1>
+        <ShowPoster />
     <Show/>
+    <Footer/>
     </Container>
   );
 };

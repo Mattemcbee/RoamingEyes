@@ -21,14 +21,14 @@ const MerchPreview= ({meal}) => {
       to: [
         { opacity: "1" },
       ],
-      config: { duration: 1000 }
+      config: {  }
     });
     const animatedStyle2 = useSpring({
       from: { transform: "translateX(-100%)" },
       to: [
         { transform: "translateX(0%)" },
       ],
-      config: { duration: 250 }
+      config: {  }
   });
     
     useEffect(() => {
@@ -36,17 +36,17 @@ const MerchPreview= ({meal}) => {
     }, []);
     return ( 
 
-        <Col xs={{size:'3', offset:'1'}} md={{size:'3', offset:'0'}} style={{borderRadius:'10px ', width:'100%'}}>
-                    <animated.div style={animatedStyle2} style={{borderRadius:'10px 10px 0 0'}}>
+        <Col xs={{size:'3', offset:'1'}} md={{size:'3', offset:'0'}} style={{borderRadius:'0px ', width:'100%', backgroundColor:'transparent'}}>
+                    <animated.div style={animatedStyle2} >
 
-            <Card className='cardStyle ' style={{borderRadius:'10px'}}>
-            <Carousel style={{borderRadius:'10px'}}>
+            <Card className='cardStyle ' style={{borderRadius:'0px'}}>
+            <Carousel style={{borderRadius:'0px'}}>
                     <Carousel.Item >
                         <img
                             className="d-block w-100"
                             src={image}
                             alt="Image One"
-                            style={{borderRadius:'10px'}}
+                            style={{borderRadius:'0px'}}
                             
                         />
                         <Col className='d-none d-md-block'>
@@ -60,7 +60,7 @@ const MerchPreview= ({meal}) => {
                             className="d-block w-100"
                             src={image2}
                             alt="Image Two"
-                            style={{borderRadius:'10px'}}
+                            style={{borderRadius:'0px'}}
                         />
                         <Col className='d-none d-md-block'>
                         <Carousel.Caption>

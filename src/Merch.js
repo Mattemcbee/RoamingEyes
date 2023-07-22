@@ -4,7 +4,6 @@ import { Container, Row, Col } from "reactstrap";
 import './css/App.css';
 import { MERCH } from './lists/MerchStore';
 import MerchCard from './MerchCard'
-
 const Album = () => {
 
     return (
@@ -13,11 +12,8 @@ const Album = () => {
 
                 return (
                     <>
-                        
-                            {/* <Col xs='12'> */}
-                        <Col className='' xs='3' key={meal.id}>
+                        <Col className='' xs='4' key={meal.id}>
                             <MerchCard meal={meal} />
-                        {/* </Col> */}
                         </Col>
                         
                     </>

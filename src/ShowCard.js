@@ -6,33 +6,43 @@ const MerchCard = ({ show }) => {
     const { id, image, price, name, disc } = show;
 
     return (
-        <Link className='NoDecorationCardText' to={"https://google.com"}>
+        <Link
+            // className='NoDecorationCardText' 
+            to={"https://google.com"} className='noDecoration'>
 
-            <Card className='hoverEff CardBackground' 
-            style={{ marginBottom: '20px', borderRadius: '0 0 10px 10px', backgroundColor:'yellow' }}
+            <Card className='hoverEff CardBackgroundShow noDecoration'
+                style={{ marginBottom: '20px', borderRadius: '4px', backgroundColor: 'grey' }}
             >
-                
-                <CardTitle className='cardStyle m-0'>{name}</CardTitle>
-                <CardBody className='cardStyleDark p-50 fluid '>
+
+                {/* <CardTitle className='cardStyle m-0'>{name}</CardTitle> */}
+                <CardBody className=''>
                     <Row>
-                <Col xs='8'>
+                        <Col xs='2' className='CenterContainer'>
 
-                    <Row className='center fluid mx-auto' style={{height:'100%'}}>
-                            <img src={image}/>
-                    </Row> 
-                    </Col>
+                            <Row fluid style={{ height: '100%', width: '5%', backgroundColor: 'yellow', borderRadius: '10px' }}>
+                                {/* <img src={image}/> */}
+                            </Row>
+                        </Col>
+                        <Col xs='8' className=''>
+                            <Container fluid className='CenterContainer'
+                            // style={{backgroundColor:'red'}}
+                            >
+                            <p className='showText'>{name}</p>
+                            <p className='showText2'>{disc}</p>
+                            </Container>
+                        </Col>
 
-                    <Col xs='4'>
-                    <Row>
-                            <CardText className='NoDecorationCardText m-0' > {price}  </CardText>
+                        <Col xs='2'>
+                            <Row>
+                                <CardText className='NoDecorationCardText  m-0' > See More  </CardText>
+                            </Row>
+                        </Col>
                     </Row>
-                    </Col>
-                    </Row>
 
-                  
+
                 </CardBody>
             </Card>
-         </Link>
+        </Link>
     );
 };
 

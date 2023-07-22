@@ -15,7 +15,7 @@ const Album = () => {
                     <>
                         
                             {/* <Col xs='12'> */}
-                        <Col className='' xs='3' key={show.id}>
+                        <Col className='' xs={{size:'10', offset:'1'}} key={show.id}>
                             <ShowCard show={show} />
                         {/* </Col> */}
                         </Col>

@@ -33,7 +33,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Navbar expand="lg" sticky="top" className="HeaderBack m-auto">
+    <Navbar expand="lg" sticky="top" className="HeaderBack ">
       <NavbarBrand className=" m-auto" 
       href="/" 
       >
@@ -43,7 +43,7 @@ const Header = () => {
 
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} className="ms-5 float-start"
         style={{
-          color: '#EAC7C7', backgroundColor: '#111111', borderRadius: "10px",
+          color: 'yellow', borderRadius: "10px",
           borderColor: '#EAC7C7', border: '5px'
         }} ><i className="fa fa-bars fa-md dark " />
       </NavbarToggler>
@@ -52,26 +52,26 @@ const Header = () => {
         <Nav className="ms-auto  float-start" navbar  >
 
         <NavItem>
-            <NavLink className="nav-link iconColor hoverEff" style={{ color: 'yellow' }} to="/">
-              <i className="fa fa-home fa-lg fontBasic" /> 
+            <NavLink className="nav-link iconColor hoverEffText" style={{ color: 'yellow' }} to="/">
+              {/* <i className="fa fa-home fa-lg fontBasic" />  */}
               Home
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link iconColor hoverEff" style={{ color: 'yellow' }} to="/merch">
-              <i className="fa fa-home fa-lg fontBasic" /> 
+            <NavLink className="nav-link iconColor hoverEffText" style={{ color: 'yellow' }} to="/merch">
+              {/* <i className="fa fa-home fa-lg fontBasic" />  */}
               Merch
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link iconColor hoverEff" style={{ color: 'yellow' }} to="/shows">
-              <i className="fa fa-home fa-lg fontBasic" /> 
+            <NavLink className="nav-link iconColor hoverEffText" style={{ color: 'yellow' }} to="/shows">
+              {/* <i className="fa fa-home fa-lg fontBasic" />  */}
               Shows
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link iconColor hoverEff" style={{ color: 'yellow' }} to="/socials">
-              <i className="fa fa-home fa-lg fontBasic" /> 
+            <NavLink className="nav-link iconColor hoverEffText" style={{ color: 'yellow' }} to="/socials">
+              {/* <i className="fa fa-home fa-lg fontBasic" />  */}
               Socials
             </NavLink>
           </NavItem>

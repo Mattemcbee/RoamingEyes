@@ -8,11 +8,9 @@ import { Container, Col, Row, Button } from "reactstrap";
 const App = () => {
 
   return (
-
-    <Container fluid className='Background2'>
-      {/* <Header /> */}
+    <>
       <Display />
-    </Container>
+    </>
   );
 };
 
