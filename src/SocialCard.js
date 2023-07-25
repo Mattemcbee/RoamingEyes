@@ -20,7 +20,7 @@ const SocialCard = ({ social }) => {
                         <Col xs='2'>
 
                             <Row className='' style={{ height: '100%' }}>
-                                <p> {icon}</p>
+                                <p > {icon}</p>
                             </Row>
                         </Col>
 
@@ -31,6 +31,7 @@ const SocialCard = ({ social }) => {
                             </Row>
                         </Col>
                     </Row>
+
 
 
                 </CardBody>

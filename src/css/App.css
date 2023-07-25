@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.blackBack {
+  background-color: black;
+  height: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +16,41 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.front-image {
+  z-index: 2;
+  /* background-image: url('./images/dog.jpg'); Replace with your front image URL */
+  /* background-size: cover; */
+  /* background-position: center; */
+  opacity: 100%;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  /* display: ;   */
+}
 
+.background-image {
+  z-index: 1;
+  /* background-image: url('./images/space.jpg');  */
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.background-image2 {
+  z-index: 1;
+  /* background-image: url('./images/tower.jpg');  */
+  /* background-size: cover; */
+  /* background-position: center;  */
+  background: black;
+  background-repeat: repeat;
+  width: 100%;
+  /* position: relative; */
+  /* overflow: scroll; */
+  margin: 0;
+  padding:0;
+  /* opacity: 20%; */
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -81,7 +119,7 @@
   letter-spacing: 5px;
 }
 .CenterContainer {
-  vertical-align: auto;
+  vertical-align: center;
 }
 .showText {
   color: yellow;
@@ -111,9 +149,9 @@
 }
 
 .SearchButton {
-  background-color: #685F4D;
+  background-color: red;
   color: #111111;
-  border: 2px solid #111111;
+  border: 5px solid red;
   margin: 10px;
 
 }
@@ -221,9 +259,10 @@ Form {
 
 .socialBackground{
   /* background-color: rgba(0, 0, 0, 0.6); */
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
   background: url('../images/homeBackRound.jpg'); 
+  /* width:100vw; */
 }
 
 .albumStyle {

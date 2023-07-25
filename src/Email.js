@@ -63,7 +63,10 @@ const Email = () => {
                     placeholder='Message…'
                     required
                 /> */}
-                <Button type='submit' width='10%' color='white'>Submit</Button>
+                <Button type='submit' width='10%' color='white'
+                // style={{backgroundColor:'transparent', color:'white', borderColor:'white', border:'1px solid white', borderRadius:'4px', padding:'10px'}}
+                // class='SearchButton'
+                >Submit</Button>
             </Form>
         </>
     );

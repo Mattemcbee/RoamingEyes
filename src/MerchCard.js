@@ -9,7 +9,7 @@ const MerchCard = ({ meal }) => {
         <Link className='NoDecorationCardText' to={"https://google.com"}>
 
             <Card className='hoverEff CardBackgroundMerch MerchCard'
-                style={{ marginBottom: '20px', borderRadius: '0 ', backgroundColor: 'transparent ' }}
+                style={{ marginBottom: '20px',  backgroundColor: 'transparent ' }}
             >
 
                 <CardBody className=' p-0 ' >

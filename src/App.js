@@ -7,7 +7,7 @@ import HomePage from './Pages/HomePage';
 import Merch from './Pages/MerchPage.js';
 import Shows from './Pages/ShowPage.js';
 import Socials from './Pages/SocialPage.js';
-
+import ScrollingTower from './ScrollingTower';
 
 
 
@@ -17,7 +17,7 @@ function App() {
         <div className='App'>
             <Routes>
                 
-                <Route path='/' element={<HomePage />} />
+                <Route path='/' element={<ScrollingTower />} />
                 <Route path='/merch' element={<Merch />} />
                 <Route path='/shows' element={<Shows />} />
                 <Route path='/socials' element={<Socials />} />

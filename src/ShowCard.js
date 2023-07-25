@@ -32,9 +32,9 @@ const MerchCard = ({ show }) => {
                             </Container>
                         </Col>
 
-                        <Col xs='2'>
+                        <Col xs='2' style={{ margin: 'auto'}}>
                             <Row>
-                                <CardText className='NoDecorationCardText  m-0' > See More  </CardText>
+                                <CardText  className='NoDecorationCardText ContainerCenter' style={{margin:'auto'}} > See More  </CardText>
                             </Row>
                         </Col>
                     </Row>
